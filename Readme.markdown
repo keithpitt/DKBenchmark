@@ -1,7 +1,6 @@
 # DKBenchmark
 
 `DKBenchmark` is a utility class that makes it easy to benchmark code in Objective-C.
-
 Results are logged via `NSLog`
 
 It is used in the apps written by [Mostly Disco](http://www.mostlydisco.com)
