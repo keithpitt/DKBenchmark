@@ -1,9 +1,9 @@
 # DKBenchmark
 
-`DKBenchmark` is a utility class that makes it easy to benchmark code in Objective-C.
+`DKBenchmark` is a utility class that makes it easy to benchmark code in Objective-C using blocks.
 Results are logged via `NSLog`
 
-It is used in the apps written by [Mostly Disco](http://www.mostlydisco.com)
+It is used in the apps written by [Mostly Disco](http://www.mostlydisco.com) and [The Frontier Group](http://www.thefrontiergroup.com.au)
 
 ## Installation
 
@@ -57,6 +57,8 @@ devices have a far less powerfull CPU.
 ## Contributers
 
 * [Keith Pitt](http://www.keithpitt.com)
+* [The Frontier Group](http://www.thefrontiergroup.com.au)
+* [Mostly Disco](http://www.mostlydisco.com)
 
 ## License
 
