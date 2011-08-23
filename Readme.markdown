@@ -38,8 +38,8 @@ Running a benchmark will yield an output similar to the following:
 ## How does it work?
 
 It runs the code in the block you provide x times (default is 100). It
-records how long each iteration of the block takes, and at the and, gives
-you an average of all the numbers added together.
+records how long each iteration of the block takes, and at the end, gives
+you a number that represents the average time for all the iterations.
 
 ## Notes on benchmarking code
 
