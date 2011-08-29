@@ -13,23 +13,25 @@ Copy the files into to your project folder, and add them to your Xcode project.
 
 To benchmark some code (with 100 iterations)
 
-    NSString * someString = @"Greatest String Ever...";
+```objective-c
+#import "DKBenchmark.h"
 
-    [DKBenchmark benchmark:@"Appending Strings" block:^{
+NSString * someString = @"Greatest String Ever...";
 
-      someString = [someString stringByAppendingString:@"...or is it?"];
-
-    }];
+[DKBenchmark benchmark:@"Appending Strings" block:^{
+    someString = [someString stringByAppendingString:@"...or is it?"];
+}];
+```
 
 If you want to specifiy the number of iterations:
 
-    NSString * someString = @"It's over 9";
+```objective-c
+NSString * someString = @"It's over 9";
 
-    [DKBenchmark benchmark:@"Appending Strings" iterations: 9001 block:^{
-
-      someString = [someString stringByAppendingString:@"000"];
-
-    }];
+[DKBenchmark benchmark:@"Appending Strings" iterations: 9001 block:^{
+    someString = [someString stringByAppendingString:@"000"];
+}];
+```
 
 Running a benchmark will yield an output similar to the following:
 
