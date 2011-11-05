@@ -1,0 +1,14 @@
+Vendor::Spec.new do |s|
+
+  s.name        = "DKBenchmark"
+  s.version     = "0.1"
+
+  s.authors     = "keithpitt"
+  s.email       = "me@keithpitt.com"
+  s.description = "Easy benchmarking in Objective-C using blocks"
+
+  s.source      = "https://github.com/keithpitt/DKBenchmark"
+
+  s.files       = `git ls-files`.split("\n")
+
+end
